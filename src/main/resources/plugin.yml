@@ -1,0 +1,7 @@
+name: AFKStatus
+version: '${project.version}'
+main: io.github.kabryxis.afkstatus.AFKStatus
+api-version: 1.16
+commands:
+  timeactive:
+    description: Shows how long a player has been active (not AFK) in hours, minutes, and seconds.
