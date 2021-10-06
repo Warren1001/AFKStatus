@@ -27,7 +27,7 @@ public class AFKStatusCommandExecutor implements CommandExecutor {
 			return true;
 		}
 		
-		sender.sendMessage(String.format("Time %s has spent active: %s", target.getDisplayName(), plugin.getTimeSpentNotAfk(target)));
+		sender.sendMessage(String.format("Time %s has spent active: %s", target.getDisplayName(), plugin.getTimeSpentNotAfk(target.getUniqueId())));
 		
 		return true;
 	}
